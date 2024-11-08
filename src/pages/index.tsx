@@ -22,7 +22,7 @@ export default function Home() {
             <h1
               className="text-5xl md:text-7xl font-bold tracking-wider text-transparent"
               style={{
-                WebkitTextStroke: "4px black",
+                WebkitTextStroke: "3px black",
                 color: "#9a9a9a",
                 textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
               }}
@@ -35,7 +35,7 @@ export default function Home() {
           </div>
 
           {/* Fox Image aligned to the right of the title text */}
-          <div className="mt-4 md:mt-0 md:ml-4">
+          <div className=" mt-4 md:mt-0 md:ml-4">
             <Image src={Fox} alt="Fox Character" width={200} height={150} className="md:w-200 md:h-200 shadow-sm" />
           </div>
         </div>
