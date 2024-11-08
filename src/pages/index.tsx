@@ -1,9 +1,6 @@
 import Image from 'next/image';
 import Logo from './next/Logo.png';
 import Fox from './next/ff.png';
-import Insta from './next/Insta.jpg';
-import Telegram from './next/telegram.jpg';
-import YT from './next/yt.jpg';
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaTelegramPlane } from "react-icons/fa";
 import { FaTwitterSquare } from "react-icons/fa";
@@ -25,7 +22,7 @@ export default function Home() {
             <h1
               className="text-5xl md:text-7xl font-bold tracking-wider text-transparent"
               style={{
-                WebkitTextStroke: "3px black",
+                WebkitTextStroke: "4px black",
                 color: "#9a9a9a",
                 textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
               }}
