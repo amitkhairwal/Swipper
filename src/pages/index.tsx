@@ -32,13 +32,13 @@ export default function Home() {
             className="text-5xl md:text-7xl font-bold tracking-wider text-transparent"
             style={{
               WebkitTextStroke:  textStroke,
-              color: "#9a9a9a",
+              color: "#ec4899",
               textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
             }}
           >
             $SWIPR COIN <br /> ON SOLANA
           </h1>
-          <p className="mt-2 md:mt-4 text-xl md:text-2xl font-extrabold" style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}>
+          <p className="mt-2 md:mt-4 text-xl md:text-2xl font-extrabold" style={{ textShadow: "2px 2px 4px rgba(236, 72, 153, 1)" }}>
             SWIPR KEEP SWIPING!
           </p>
         </div>
@@ -69,16 +69,16 @@ export default function Home() {
 
       {/* Social Media Icons */}
       <div className="absolute top-2 right-2 md:top-4 md:right-4 flex space-x-2 md:space-x-4">
-        <button className="text-gray-300 md:text-3xl text-2xl hover:text-white transition-colors" aria-label="Instagram">
+        <button className="text-pink-500 md:text-3xl text-2xl hover:text-white transition-colors" aria-label="Instagram">
           <FaSquareInstagram />
         </button>
-        <button className="text-gray-300 md:text-3xl text-2xl hover:text-white transition-colors" aria-label="Telegram">
+        <button className="text-pink-500 md:text-3xl text-2xl hover:text-white transition-colors" aria-label="Telegram">
           <FaTelegramPlane />
         </button>
-        <button className="text-gray-300 md:text-3xl text-2xl hover:text-white transition-colors" aria-label="Twitter">
+        <button className="text-pink-500 md:text-3xl text-2xl hover:text-white transition-colors" aria-label="Twitter">
           <FaTwitterSquare />
         </button>
-        <button className="text-gray-300 md:text-3xl text-2xl hover:text-white transition-colors" aria-label="YouTube">
+        <button className="text-pink-500 md:text-3xl text-2xl hover:text-white transition-colors" aria-label="YouTube">
           <FaYoutube />
         </button>
       </div>
