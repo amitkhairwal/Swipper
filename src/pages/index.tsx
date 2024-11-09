@@ -69,16 +69,16 @@ export default function Home() {
 
       {/* Social Media Icons */}
       <div className="absolute top-2 right-2 md:top-4 md:right-4 flex space-x-2 md:space-x-4">
-        <button className="text-pink-500 md:text-3xl text-2xl hover:text-white transition-colors" aria-label="Instagram">
+        <button className="text-pink-400 md:text-3xl text-2xl hover:text-white transition-colors" aria-label="Instagram">
           <FaSquareInstagram />
         </button>
-        <button className="text-pink-500 md:text-3xl text-2xl hover:text-white transition-colors" aria-label="Telegram">
+        <button className="text-pink-400 md:text-3xl text-2xl hover:text-white transition-colors" aria-label="Telegram">
           <FaTelegramPlane />
         </button>
-        <button className="text-pink-500 md:text-3xl text-2xl hover:text-white transition-colors" aria-label="Twitter">
+        <button className="text-pink-400 md:text-3xl text-2xl hover:text-white transition-colors" aria-label="Twitter">
           <FaTwitterSquare />
         </button>
-        <button className="text-pink-500 md:text-3xl text-2xl hover:text-white transition-colors" aria-label="YouTube">
+        <button className="text-pink-400 md:text-3xl text-2xl hover:text-white transition-colors" aria-label="YouTube">
           <FaYoutube />
         </button>
       </div>
