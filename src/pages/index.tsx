@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Logo from './next/Logo.png';
+import Logo1 from './next/logo1.png';
 
 import { FaTelegramPlane, FaTwitterSquare } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
@@ -43,7 +44,7 @@ export default function Home() {
 
           {/* Fox Image */}
           <div className="mt-4 flex justify-center md:justify-end md:mt-0 md:ml-4">
-            <Image src={Logo} alt="Fox Character" width={200} height={150} className="md:w-200 md:h-200 shadow-sm" />
+            <Image src={Logo1} alt="Fox Character" width={200} height={150} className="md:w-200 md:h-200 shadow-sm" />
           </div>
         </div>
 
